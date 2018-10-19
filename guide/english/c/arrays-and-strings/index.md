@@ -13,7 +13,9 @@ To declare this as an array, and make it an array of 5 integers, it can be decla
 ```C
 int my_array[5];
 ```
-This will produce an array called `my_array` that can hold 5 integers. However, none of the positions in the array have been set (yet). You could declare the array, and have the values be set at the beginning:
+This will produce an array called `my_array` that can hold 5 integers. 
+However, none of the positions in the array have been set (yet).     // This is not required. It will create a different sense 
+You could declare the array, and have the values be set at the beginning:
 ```C
 int my_array[] = {1, 5, 3, 6, 2};
 ```
